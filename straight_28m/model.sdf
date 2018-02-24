@@ -1,0 +1,132 @@
+<?xml version='1.0'?>
+<sdf version='1.4'>
+  <model name='staright_28m'>
+    <link name='Wall_26'>
+      <collision name='Wall_26_Collision'>
+        <geometry>
+          <box>
+            <size>14 0.2 2.5</size>
+          </box>
+        </geometry>
+        <pose>0 0 1.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_26_Visual'>
+        <pose>0 0 1.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>14 0.2 2.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+             <uri>model://materials/scripts</uri>
+             <uri>model://materials/textures</uri>
+             <name>vrc/red_wall</name>
+          </script>
+        </material>
+      </visual>
+      <velocity_decay>
+        <linear>0</linear>
+        <angular>0</angular>
+      </velocity_decay>
+      <pose>-7 -7 0 0 -0 0</pose>
+    </link>
+
+    <link name='Wall_28'>
+      <collision name='Wall_28_Collision'>
+        <geometry>
+          <box>
+            <size>14 0.2 2.5</size>
+          </box>
+        </geometry>
+        <pose>0 0 1.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_28_Visual'>
+        <pose>0 0 1.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>14 0.2 2.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+	      <uri>model://materials/scripts</uri>
+              <uri>model://materials/textures</uri>
+              <name>vrc/red_wall</name>
+           
+          </script>
+        </material>
+      </visual>
+      <velocity_decay>
+        <linear>0</linear>
+        <angular>0</angular>
+      </velocity_decay>
+      <pose>-7 7 0 0 -0 0</pose>
+    </link>
+    <static>1</static>
+
+    <link name='Wall_27'>
+      <collision name='Wall_26_Collision'>
+        <geometry>
+          <box>
+            <size>14 0.2 2.5</size>
+          </box>
+        </geometry>
+        <pose>0 0 1.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_26_Visual'>
+        <pose>0 0 1.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>14 0.2 2.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+             <uri>model://materials/scripts</uri>
+             <uri>model://materials/textures</uri>
+             <name>vrc/red_wall</name>
+          </script>
+        </material>
+      </visual>
+      <velocity_decay>
+        <linear>0</linear>
+        <angular>0</angular>
+      </velocity_decay>
+      <pose>7 -7 0 0 -0 0</pose>
+    </link>
+
+    <link name='Wall_29'>
+      <collision name='Wall_28_Collision'>
+        <geometry>
+          <box>
+            <size>14 0.2 2.5</size>
+          </box>
+        </geometry>
+        <pose>0 0 1.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_28_Visual'>
+        <pose>0 0 1.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>14 0.2 2.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+	      <uri>model://materials/scripts</uri>
+              <uri>model://materials/textures</uri>
+              <name>vrc/red_wall</name>
+           
+          </script>
+        </material>
+      </visual>
+      <velocity_decay>
+        <linear>0</linear>
+        <angular>0</angular>
+      </velocity_decay>
+      <pose>7 7 0 0 -0 0</pose>
+    </link>
+    <static>1</static>
+  </model>
+</sdf>

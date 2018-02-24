@@ -1,0 +1,39 @@
+<?xml version='1.0'?>
+<sdf version='1.4'>
+  <model name='round_turn_90_5m'>
+
+    <link name='Curev_Wall'>
+      <collision name='Wall_26_Collision'>
+        <geometry>
+		<mesh>
+		<uri>model://materials/mesh/round_turn_90_35m.dae</uri>
+		</mesh>
+        </geometry>
+        <pose>0 0 0 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_26_Visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          
+		<mesh>
+		<uri>model://materials/mesh/round_turn_90_35m.dae</uri>
+		</mesh>
+        </geometry>
+        <material>
+          <script>
+             <uri>model://materials/scripts</uri>
+             <uri>model://materials/textures</uri>
+             <name>vrc/red_wall_x4</name>
+          </script>
+        </material>
+      </visual>
+      <velocity_decay>
+        <linear>0</linear>
+        <angular>0</angular>
+      </velocity_decay>
+      <pose>0 0 0 0 -0 0</pose>
+    </link>
+
+    <static>1</static>
+  </model>
+</sdf>

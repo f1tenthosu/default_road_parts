@@ -1,0 +1,17 @@
+material vrc/red_wall
+{
+	receive_shadows off
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture red_wall_small.png
+				filtering anistropic
+				max_anisotropy 16
+				scale 0.03125 0.125
+			}
+		}
+	}
+}
